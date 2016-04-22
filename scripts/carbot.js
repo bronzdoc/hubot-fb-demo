@@ -1,5 +1,5 @@
-module.exports = (robot) => {
-    robot.hear(/getting chilly/i, (res) => {
+module.exports = function(robot) {
+    robot.hear(/getting chilly/i, function(res) {
         res.envelope.fb = {
             richMsg: {
                 attachment: {
