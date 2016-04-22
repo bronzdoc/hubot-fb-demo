@@ -15,8 +15,8 @@ module.exports = function(robot) {
                         },
                         {
                             type: "web_url",
-                            url: "http://i0.kym-cdn.com/photos/images/original/000/593/159/ee6.gif"
-                            title: "No",
+                            url: "http://i0.kym-cdn.com/photos/images/original/000/593/159/ee6.gif",
+                            title: "No"
                         }
                         ]
                     }
